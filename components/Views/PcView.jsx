@@ -77,7 +77,8 @@ const PcView = () => {
           className="mt-1 block w-full pl-3 pr-10 py-3 text-2xl border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-xl rounded-md"
           disabled={!selectedState}
         >
-          <option value="">Select an AC name</option>
+          <option value="">Select an 
+          PC name</option>
           {pcNames.map((acName, index) => (
             <option key={index} value={acName.pc_name}>
               {acName.pc_name}
