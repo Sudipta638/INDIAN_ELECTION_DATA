@@ -7,7 +7,7 @@ const NationalElectionHistory = () => {
   const [chartDataforcaste, setChartDataforcaste] = useState([]);
   const [chartDataforvotesPercentage, setChartDataforvotesPercentage] =
     useState([]);
-
+  
   useEffect(() => {
     fetch("http://localhost:8000/api/total_male_and_female_candidates_yearwise")
       .then((res) => res.json())
