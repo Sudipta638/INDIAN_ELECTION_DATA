@@ -136,7 +136,7 @@ const Page = () => {
       <form
         onSubmit={handleSubmit}
         className={
-          shown ? "hidden" : ` w-1/2 bg-white rounded-lg shadow-lg m-10 top-0`
+          shown ? "hidden" : ` w-1/2 bg-white rounded-lg shadow-lg p-10 m-10 top-0`
         }
       >
         <label htmlFor="candidateName" className="block text-lg font-bold mb-2">
